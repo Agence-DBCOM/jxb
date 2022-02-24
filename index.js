@@ -10,6 +10,7 @@ class JXBCommand {
   constructor(commandString) {
     console.log(commandString); 
     var parts = commandString.trim().split(":");
+    console.log( parts );
     this._command = parts[0];
     this._args = parts[1].split(" ");
   }
