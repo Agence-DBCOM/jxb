@@ -124,7 +124,7 @@ class JXBCommand {
         return await this.rename(this._args[0], this._args[1]);
         break;
       case "ZIPDIR":
-        return await this.zipdir(this._args[0], (this._args[1] ? this._args[1] : this._args[0]) + ".zip");
+        return await this.zipdir(this._args[0], (this._args[1] ? this._args[1] : this._args[0] + ".zip"));
         break;
       case "ZIPFILES":
         return await this.zipfiles(this._args);
