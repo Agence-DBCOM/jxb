@@ -142,6 +142,7 @@ class JXB {
     this._commands = [];
     if (fs.existsSync(buildFile)) {
       var contents = fs.readFileSync(buildFile, 'utf8');
+      console.log(contents);
       var lines = contents.split("\n");
       for (var i = 0; i <= lines.length - 1; i++) {
         if (lines[i].charAt(0) == '#') continue;
