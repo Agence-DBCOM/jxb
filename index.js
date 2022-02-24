@@ -147,7 +147,7 @@ class JXB {
       console.log(contents);
       var lines = contents.split("\n");
       for (var i = 0; i <= lines.length - 1; i++) {
-        if (lines[i].charAt(0) == '#') continue;
+        if (lines[i].charAt(0) == '#' || lines[i].trim().length == 0) continue;
         console.log(lines[i]);
         this._commands.push(new JXBCommand(lines[i]));
       }
