@@ -1,6 +1,6 @@
 {
   "name": "jxb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Joomla Extension Building Action",
   "main": "index.js",
   "scripts": {
@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/mavrosxristoforos/jxb#readme",
   "dependencies": {
-    "@actions/core": "^1.2.6",
+    "@actions/core": "^1.9.1",
     "@actions/github": "^1.1.0",
     "@actions/io": "^1.0.1",
     "folder-zip-sync": "^1.0.5",
-    "jszip": "^3.2.2",
-    "minimist": "^1.2.3",
+    "jszip": "^3.8.0",
+    "minimist": "^1.2.6",
     "path": "^0.12.7"
   }
 }
